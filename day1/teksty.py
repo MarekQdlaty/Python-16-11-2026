@@ -46,3 +46,6 @@ print(tekst.count("a", 3, 4))  # jeden raz
 
 print(tekst.removeprefix("Witaj"))  # " Świecie"
 print(tekst.removesuffix("Świecie"))  # "Witaj "
+
+# strip() - usunięcie białych znaków, usuwa spacje z przodu i z tyłu
+print(tekst.removesuffix("Świecie").strip())  # "Witaj"
