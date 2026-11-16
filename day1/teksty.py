@@ -42,4 +42,7 @@ print(tekst.lower().count("w"))  # występuje 2 razy
 # 0123456789...
 
 print(tekst.count("j", 0, 4))  # wystepuje 0 razy, z prawej nie bierze pod uwagę
-print(tekst.count("a", 3, 4))
+print(tekst.count("a", 3, 4))  # jeden raz
+
+print(tekst.removeprefix("Witaj"))  # " Świecie"
+print(tekst.removesuffix("Świecie"))  # "Witaj "
