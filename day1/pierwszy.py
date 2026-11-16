@@ -52,3 +52,5 @@ print(sys.int_info)
 print(int("39") + int(30))
 
 print(168 * "39")
+
+# zmienna - pudełko na dane
