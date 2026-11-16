@@ -54,3 +54,43 @@ print(int("39") + int(30))
 print(168 * "39")
 
 # zmienna - pudełko na dane
+
+name = "Radek"
+print(name)
+# Radek
+print(type(name))
+
+# typowanie dynamiczne
+age = 89
+print(type(age))  # <class 'int'>
+print(age)  # 89
+
+age = "Radek"
+print(type(age))  # <class 'int'>
+print(age)  # Radek
+
+# print(age + 1)  # TypeError: can only concatenate str (not "int") to str
+
+# print(int(age) + 1) # ValueError: invalid literal for int() with base 10: 'Radek'
+age = "89"
+print(int(age) + 1)  # 90
+
+# hint
+name: str = "Radek"
+name = 90
+
+print(name)  # 90
+
+# mypy, pyright, ruff
+# pip - menadzer pakiety
+#  pip install mypy
+#  mypy .\day1\pierwszy.py
+# (.venv) PS C:\Users\cscomarch\PycharmProjects\PythonProject\-16-11-2026> mypy .\day1\pierwszy.py
+# day1\pierwszy.py:3: error: Cannot find implementation or library stub for module named "idlelib.colorizer"  [import-not-found]
+# day1\pierwszy.py:3: note: See https://mypy.readthedocs.io/en/stable/running_mypy.html#missing-imports
+# day1\pierwszy.py:68: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+# day1\pierwszy.py:75: error: Incompatible types in assignment (expression has type "str", variable has type "int")  [assignment]
+# day1\pierwszy.py:79: error: Name "name" already defined on line 58  [no-redef]
+# day1\pierwszy.py:80: error: Incompatible types in assignment (expression has type "int", variable has type "str")  [assignment]
+# Found 5 errors in 1 file (checked 1 source file)
+# (.venv) PS C:\Users\cscomarch\PycharmProjects\PythonProject\-16-11-2026>
