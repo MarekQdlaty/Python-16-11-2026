@@ -31,3 +31,14 @@ zbior.add(12)
 zbior.add(33)
 print(zbior)
 # {33, 66, 777, 11, 44, 12, 18, 22, 55, 24, 25}
+
+# usunięcie ze zbioru
+zbior.remove(55)
+print(zbior)  # {33, 66, 777, 11, 44, 12, 18, 22, 24, 25}
+
+# pop()
+print(zbior.pop())  # 33 usunie pierwszy element
+
+zmienna = zbior.pop()
+print(f"Zmienna: {zmienna}")  # Zmienna: 66
+print("Zmienna:", zmienna)  # Zmienna: 66
