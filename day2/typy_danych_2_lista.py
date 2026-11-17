@@ -110,4 +110,10 @@ print(lista)
 # print(lista)
 # # ['M', 'i', 'r', 'e', 'k', 'Mirek', 'Natalia']
 
-# dopisanie elementu
+# dopisanie elementu na wskazanym indeksie
+lista.insert(1, "Ola")
+print(lista)
+# ['Piotr', 'Ola', 'Dariusz', 'Daniel', 'Radek', 'Marek', 'Tomek', 'Mirek', 'Natalia']
+
+# sprawdzenie indeksu
+print(lista.index("Radek"))  # 4
