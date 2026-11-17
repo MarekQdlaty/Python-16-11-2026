@@ -85,3 +85,8 @@ print(False or False)
 # True
 # True
 # False
+
+print(49 * "-")
+# not - negacja
+print(not True)  # False
+print(not False)  # True
