@@ -30,3 +30,39 @@ print(tupla_imiona.index("Tomek"))  # index 1
 print(tupla_imiona.count("Tomek"))  # wystepuje 1 raz
 
 print(len(tupla_imiona))  # 4 elementy
+
+tup = 1, 2
+print(type(tup))  # <class 'tuple'>
+
+# a - pierwszy, b - drugi
+
+a = tup[0]
+b = tup[1]
+print(a, b)  # 1 2
+
+# rozpakowanie krotki
+c, d = tup  # 1, 2
+print(c, d)
+
+# zamiana wartosci
+a, b = b, a
+print(a, b)  # 2 1
+
+print(tupla_imiona)  # ('Zenek', 'Tomek', 'Marek', 'Ania')
+# name1, name2, name3
+# name1, name2, name3 = tupla_imiona
+# ValueError: too many values to unpack (expected 3, got 4)
+name1, name2, *name3 = tupla_imiona
+print(name1, name2, name3)  # Zenek Tomek ['Marek', 'Ania']
+
+*name1, name2, name3 = tupla_imiona
+print(name1, name2, name3)  # ['Zenek', 'Tomek'] Marek Ania
+name1, *name2, name3 = tupla_imiona
+print(name1, name2, name3)  # Zenek ['Tomek', 'Marek'] Ania
+
+# sorted() - sortowanie, zwraca nową listę
+print(sorted(tupla_imiona))
+# ['Ania', 'Marek', 'Tomek', 'Zenek']
+
+lista = list(tupla_imiona)
+print(lista)  # ['Zenek', 'Tomek', 'Marek', 'Ania']
