@@ -54,3 +54,7 @@ print(zbior.union(zbior_2))  # {777, 11, 44, 12, 12.34, 18, 52, 22, 24, 25, 667,
 # częśc wspolna zbiorów
 print(zbior & zbior_2)  # {18, 11, 44}
 print(zbior.intersection(zbior_2))  # {18, 11, 44}
+
+# różnica zbiorów
+print(zbior - zbior_2)  # {777, 12, 22, 24, 25}
+print(zbior.difference(zbior_2))  # {777, 12, 22, 24, 25}
