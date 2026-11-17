@@ -66,3 +66,4 @@ print(lista[-5:-2])  # ['Radek', 'Marek', 'Tomek']
 a = None
 b = None
 print(lista[a:b])  # [:]
+# ['Piotr', 'Dariusz', 'Daniel', 'Radek', 'Marek', 'Tomek', 'Zenek', 'Natalia']
