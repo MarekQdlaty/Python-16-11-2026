@@ -45,3 +45,12 @@ print("Zmienna:", zmienna)  # Zmienna: 66
 
 zbior_2 = {667, 11, 44, 12.34, 18, 52, 667, 62}
 print(zbior_2)  # {18, 667, 52, 11, 44, 12.34, 62}
+
+# operacje na zbiorach - zwraca nowy zbior
+# suma zbiorów
+print(zbior | zbior_2)  # {777, 11, 44, 12, 12.34, 18, 52, 22, 24, 25, 667, 62}
+print(zbior.union(zbior_2))  # {777, 11, 44, 12, 12.34, 18, 52, 22, 24, 25, 667, 62}
+
+# częśc wspolna zbiorów
+print(zbior & zbior_2)  # {18, 11, 44}
+print(zbior.intersection(zbior_2))  # {18, 11, 44}
