@@ -57,3 +57,12 @@ print(lista[:])
 
 #    0         1          2          3       4        5        6         7
 #    -8        -7         -6         -5      -4       -3       -2        -1
+
+print(lista[2:0])  # []
+print(lista[-2:0])  # [] -> [6:0]
+print(lista[0:-2])  # [0:6] # ['Piotr', 'Dariusz', 'Daniel', 'Radek', 'Marek', 'Tomek']
+print(lista[-5:-2])  # ['Radek', 'Marek', 'Tomek']
+
+a = None
+b = None
+print(lista[a:b])  # [:]
