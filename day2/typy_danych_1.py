@@ -67,3 +67,21 @@ print(bool(""))  # False
 
 print(None)  # odpowiednik null, stan nieokreślony, nie wiem
 print(bool(None))  # False
+
+# operacja logiczne
+print(49 * "-")
+
+# and - i
+print(True and True)
+print(True and False)
+# True
+# False
+
+print(49 * "-")
+# or - lub
+print(True or True)
+print(True or False)
+print(False or False)
+# True
+# True
+# False
