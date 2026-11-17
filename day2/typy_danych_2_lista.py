@@ -179,6 +179,6 @@ print(type(liczby))  # <class 'list'>
 print(liczby)
 liczby[3] = 666
 print(liczby[0:3])
-print(liczby[4])
-print(liczby[-4])
+print(liczby[4])  # 567
+print(liczby[-4])  # 12.34
 print(liczby[-3:])  # [666, 567, 999]
