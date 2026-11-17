@@ -200,3 +200,9 @@ print(lista_copy)
 lista_copy.sort()
 print(lista_copy)
 # ['Daniel', 'Marek', 'Mirek', 'Natalia', 'Ola', 'Piotr', 'Radek']
+
+lista_copy.append("Karolina")
+
+lista_copy.sort(reverse=True)
+print(lista_copy)
+# ['Radek', 'Piotr', 'Ola', 'Natalia', 'Mirek', 'Marek', 'Karolina', 'Daniel']
