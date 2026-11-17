@@ -26,9 +26,19 @@ print("Używam wersji Pythona %.f" % 3.9)  # Używam wersji Pythona 4
 
 x = 3.8769
 print(f"%.2f" % x)  # 3.88
+print(f"%.0f" % x)  # 4
 print(x)  # 3.8769
 
 y = round(x, 2)
 print(y)  # 3.88
 
+print(f"Używamy wersji Pythona {wersja}")  # Używamy wersji Pythona 3.9001
+print(f"Używamy wersji Pythona {wersja:.2f}")  # Używamy wersji Pythona 3.90
+print(f"Używamy wersji Pythona {wersja:.1f}")  # Używamy wersji Pythona 3.9
+print(f"Używamy wersji Pythona {wersja:.0f}")  # Używamy wersji Pythona 4
+# print(f"Używamy wersji Pythona {wersja:.f}")  # ValueError: Format specifier missing precision
 
+print(f"{user:<10}")  # "Tomek     "
+print(f"{user:>20}")  # "               Tomek"
+print(f"{user:^20}")  # "       Tomek        "
+print(f"{user:.^20}")  # ".......Tomek........"
