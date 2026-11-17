@@ -58,3 +58,4 @@ print(zbior.intersection(zbior_2))  # {18, 11, 44}
 # różnica zbiorów
 print(zbior - zbior_2)  # {777, 12, 22, 24, 25}
 print(zbior.difference(zbior_2))  # {777, 12, 22, 24, 25}
+print(zbior_2.difference(zbior))  # {667, 52, 12.34, 62}
