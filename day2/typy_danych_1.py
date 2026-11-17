@@ -18,3 +18,13 @@ print(43 * wiek)  # 2021
 print(rok - 201)
 
 print(10 % 3)
+
+print(wiek ** rok)
+
+print(len(str(wiek ** rok)))  # 3388
+# print(len(str(wiek ** rok ** 2)))  # 3388
+# ValueError: Exceeds the limit (4300 digits) for integer string conversion;
+# use sys.set_int_max_str_digits() to increase the limit
+
+print(54 - 5 * 43 + 4 / 2 + 4 / 2)  # -157.0
+print(54 - 5 * 43 + (4 / 2 + 4) / 2)  # -158.0
