@@ -28,3 +28,8 @@ print(len(str(wiek ** rok)))  # 3388
 
 print(54 - 5 * 43 + 4 / 2 + 4 / 2)  # -157.0
 print(54 - 5 * 43 + (4 / 2 + 4) / 2)  # -158.0
+
+# bład zaokrąglenia
+print(0.2 + 0.8)  # 1.0
+print(0.2 + 0.7)  # 0.8999999999999999
+#  the sum 12.345 + 1.0001 = 13.3451 might be rounded to 13.345
