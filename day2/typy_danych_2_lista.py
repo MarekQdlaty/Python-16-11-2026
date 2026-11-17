@@ -81,3 +81,7 @@ print(lista_15[::-1])  # odwrotna kolejność
 # [14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 
 print(list(range(5, 15, 2)))  # [5, 7, 9, 11, 13] (start, stop, krok)
+
+lista1 = [1, 2, 3]
+lista2 = [4, 5, 6]
+print(lista1 + lista2)  # [1, 2, 3, 4, 5, 6]
