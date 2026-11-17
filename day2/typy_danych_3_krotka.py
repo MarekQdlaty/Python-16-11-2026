@@ -28,3 +28,5 @@ print(tupla_imiona)  # ('Zenek', 'Tomek', 'Marek', 'Ania')
 
 print(tupla_imiona.index("Tomek"))  # index 1
 print(tupla_imiona.count("Tomek"))  # wystepuje 1 raz
+
+print(len(tupla_imiona))  # 4 elementy
