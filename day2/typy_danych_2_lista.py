@@ -117,3 +117,23 @@ print(lista)
 
 # sprawdzenie indeksu
 print(lista.index("Radek"))  # 4
+
+lista.append("Tomek")
+print(lista)
+# ['Piotr', 'Ola', 'Dariusz', 'Daniel', 'Radek', 'Marek', 'Tomek', 'Mirek', 'Natalia', 'Tomek']
+print(lista.index("Tomek"))
+# 6 pierwszy z lewej
+
+# usunięcie eleemntu z listy (pierwszy z lewej)
+lista.remove("Tomek")
+print(lista)
+# ['Piotr', 'Ola', 'Dariusz', 'Daniel', 'Radek', 'Marek', 'Mirek', 'Natalia', 'Tomek']
+
+# usunięcie po indeksie
+# pop()
+print(lista.pop(2))  # Dariusz
+print(lista)
+# ['Piotr', 'Ola', 'Daniel', 'Radek', 'Marek', 'Mirek', 'Natalia', 'Tomek']
+
+zmienna = lista.pop()  # usunie ostatni
+print(zmienna)  # Tomek
