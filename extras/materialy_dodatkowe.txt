@@ -116,3 +116,5 @@ spam -= 1    spam = spam - 1
 spam *= 1    spam = spam * 1
 spam /= 1    spam = spam / 1
 spam %= 1    spam = spam % 1
+
+https://omniedu.pl/a/VEa6anIIWsD2RnEZk6kbwI3kq2t4fcdLlkfNfQWYI1Y/
