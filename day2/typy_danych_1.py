@@ -90,3 +90,15 @@ print(49 * "-")
 # not - negacja
 print(not True)  # False
 print(not False)  # True
+
+a = 6
+b = 9
+
+print(f"Porównanie {a} > {b} = {a > b}")
+print(f"Porównanie {a} < {b} = {a > b}")
+print(f"Porównanie {a} >= {b} = {a >= b}")
+print(f"Porównanie {a} <= {b} = {a <= b}")
+# Porównanie 6 > 9 = False
+# Porównanie 6 < 9 = False
+# Porównanie 6 >= 9 = False
+# Porównanie 6 <= 9 = True
