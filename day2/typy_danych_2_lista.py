@@ -85,3 +85,29 @@ print(list(range(5, 15, 2)))  # [5, 7, 9, 11, 13] (start, stop, krok)
 lista1 = [1, 2, 3]
 lista2 = [4, 5, 6]
 print(lista1 + lista2)  # [1, 2, 3, 4, 5, 6]
+
+lista1.append(list(range(5, 9)))  # jako lista w lista
+print(lista1)  # [1, 2, 3, [5, 6, 7, 8]]
+
+lista2.extend(list(range(5, 8)))  # jako kolejne elementy listy
+print(lista2)  # [4, 5, 6, 5, 6, 7]
+
+# python nie ma tablic
+
+tablica = [[1, 2], [3, 4]]
+print(tablica)  # [[1, 2], [3, 4]]
+# numpy - biblioteka do pracy z tablicami/macierzami
+
+print(lista)
+# ['Piotr', 'Dariusz', 'Daniel', 'Radek', 'Marek', 'Tomek', 'Zenek', 'Natalia']
+
+# nadpisanie na wskazanym indeksie
+lista[6] = "Mirek"
+print(lista)
+# ['Piotr', 'Dariusz', 'Daniel', 'Radek', 'Marek', 'Tomek', 'Mirek', 'Natalia']
+
+# lista[:-2] = "Mirek"
+# print(lista)
+# # ['M', 'i', 'r', 'e', 'k', 'Mirek', 'Natalia']
+
+# dopisanie elementu
