@@ -202,7 +202,24 @@ print(lista_copy)
 # ['Daniel', 'Marek', 'Mirek', 'Natalia', 'Ola', 'Piotr', 'Radek']
 
 lista_copy.append("Karolina")
+# ['Daniel', 'Marek', 'Mirek', 'Natalia', 'Ola', 'Piotr', 'Radek', 'Karolina']
+print(lista_copy)
 
 lista_copy.sort(reverse=True)
 print(lista_copy)
 # ['Radek', 'Piotr', 'Ola', 'Natalia', 'Mirek', 'Marek', 'Karolina', 'Daniel']
+
+tekst = "Pyth on ."
+
+# [], list()
+lista = [tekst]
+print(lista)  # ['Pyth on .']
+
+# rozpakowanie sekwencji
+lista_tekst = list(tekst)
+print(lista_tekst)
+# ['P', 'y', 't', 'h', ' ', 'o', 'n', ' ', '.']
+
+krotka = tuple(lista_copy)
+print(krotka)
+# ('Radek', 'Piotr', 'Ola', 'Natalia', 'Mirek', 'Marek', 'Karolina', 'Daniel')
