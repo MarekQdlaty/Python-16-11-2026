@@ -102,3 +102,4 @@ print(f"Porównanie {a} <= {b} = {a <= b}")
 # Porównanie 6 < 9 = True
 # Porównanie 6 >= 9 = False
 # Porównanie 6 <= 9 = True
+print(f"Porównanie {a <= b =}")  # Porównanie a <= b =True
