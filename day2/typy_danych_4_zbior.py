@@ -42,3 +42,6 @@ print(zbior.pop())  # 33 usunie pierwszy element
 zmienna = zbior.pop()
 print(f"Zmienna: {zmienna}")  # Zmienna: 66
 print("Zmienna:", zmienna)  # Zmienna: 66
+
+zbior_2 = {667, 11, 44, 12.34, 18, 52, 667, 62}
+print(zbior_2)  # {18, 667, 52, 11, 44, 12.34, 62}
