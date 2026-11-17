@@ -65,3 +65,17 @@ print(zbior.update(zbior_2))  # None - nie tworzy nowego zbioru, zmienia bazowy 
 print(zbior)  # {777, 11, 44, 12, 12.34, 18, 52, 22, 24, 25, 667, 62}
 
 # zamiana zbioru na krotke i liste
+
+krotka = tuple(zbior)
+
+lista = list(zbior)
+
+print(krotka)  # (777, 11, 44, 12, 12.34, 18, 52, 22, 24, 25, 667, 62)
+print(lista)  # [777, 11, 44, 12, 12.34, 18, 52, 22, 24, 25, 667, 62]
+
+# in - sprawdzenie czy dany element istnieje w kolekcji
+
+print(667 in lista)  # True
+print(667 in zbior)  # True
+print(667 in krotka)  # True
+print(567 in lista)  # False
