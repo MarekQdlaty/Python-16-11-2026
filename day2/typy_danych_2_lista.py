@@ -182,3 +182,21 @@ print(liczby[0:3])
 print(liczby[4])  # 567
 print(liczby[-4])  # 12.34
 print(liczby[-3:])  # [666, 567, 999]
+
+liczby.sort()
+print(liczby)
+# [12.34, 54, 567, 666, 999, 999]
+
+liczby.append("A")
+# print(liczby)  # [12.34, 54, 567, 666, 999, 999, 'A']
+
+
+print(ord("A"))  # 65
+# print(ord("AB"))  # TypeError: ord() expected a character, but string of length 2 found
+
+print(chr(65))  # A
+
+print(lista_copy)
+lista_copy.sort()
+print(lista_copy)
+# ['Daniel', 'Marek', 'Mirek', 'Natalia', 'Ola', 'Piotr', 'Radek']
