@@ -168,3 +168,11 @@ print(lista_copy)
 print(id(lista))  # 2244986531968
 print(id(lista2))  # 2244986531968
 print(id(lista_copy))  # 2244989284352
+
+liczby = [54, 999, 12.34, 34, 567, 999]
+print(type(liczby))  # <class 'list'>
+
+# wypisac liste
+# nadpisac czwarty element inna liczby (3)
+# wyciagnać elemnty od 1 (0) do trzeciogo włacznie (2)
+# wypisac po indeksie dodatnim i ujemny
