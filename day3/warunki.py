@@ -98,15 +98,15 @@ print(f"{90:.2%}")
 
 zarobki = int(input("Podaj zarobki: "))
 
-# kolejnosć ma znaczenie
-podatki = 0
-if zarobki < 10_000:
-    podatek = 0
-elif zarobki < 40_000:
-    podatek = 0.2
-elif zarobki < 100_000:
-    podatek = 0.4
-else:
-    podatek = 0.9
-
-print(f'podatek wynosi: {zarobki * podatek:.2f} pln.')
+# # kolejnosć ma znaczenie
+# podatki = 0
+# if zarobki < 10_000:
+#     podatek = 0
+# elif zarobki < 40_000:
+#     podatek = 0.2
+# elif zarobki < 100_000:
+#     podatek = 0.4
+# else:
+#     podatek = 0.9
+#
+# print(f'podatek wynosi: {zarobki * podatek:.2f} pln.')
