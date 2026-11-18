@@ -122,3 +122,7 @@ print(f"Rabat wynosi: {rabat}")
 # operator warunkowy
 rabat = 25 if suma_zam > 100 else 0
 print(f"Rabat wynosi: {rabat}")
+
+# napisac test z...
+# trzy patania
+# dodac punktację
