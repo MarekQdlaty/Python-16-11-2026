@@ -38,3 +38,7 @@ if odp == "Radek":
 else:
     print("To nie Radek")
 # Jestem Radek
+
+odp = "Tomek"
+if odp == "Radek":
+    print("Jestem Radek")
