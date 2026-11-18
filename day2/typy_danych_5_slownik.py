@@ -48,6 +48,14 @@ print(dictionary.get("Imie", "default"))  # default
 
 print(chr(223))  # ß
 # \uhh - kod szesnastkowy unicode
-print("\u00DF")  # ß
+print("s\u00DFa")  # sßa
 # \N{name}
 print("\N{LATIN SMALL LETTER SHARP S}")  # ß
+
+name1 = "GROSS"
+name2 = "groß"
+
+print(name1 == name2)
+print(name1.lower() == name2.lower())  # False
+# Return a version of the string suitable for caseless comparisons.
+print(name1.casefold() == name2.casefold())  # True
