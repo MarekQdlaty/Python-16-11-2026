@@ -47,3 +47,16 @@ lista3 = [j for j in range(10) if j % 2 == 0]
 print(lista3)
 
 # przerobic zadanie lotto na petle
+# wylosowane do nowej listy
+import random
+
+lista_wyl = []
+lista_kul = list(range(1, 50))
+
+for _ in range(6):
+    kula = random.choice(lista_kul)
+    lista_kul.remove(kula)
+    # print(kula)
+    lista_wyl.append(kula)
+
+print(lista_wyl)  # [8, 11, 45, 7, 9, 25]
