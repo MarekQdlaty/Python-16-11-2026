@@ -48,3 +48,15 @@ else:
     print("Ani Radek ani Tomek")
 
 # Jestem Tomek
+
+odp = 0
+if odp:
+    print("True")
+else:
+    print("False")
+# False
+
+# pobieramy od uzytkownika liczbe od 0 do 100
+# jesli wynik wynosi 90  i wiecej -> Bardzo dobry
+# jesli od 60 do 89 -> Egzamin zdany
+# jesli ponizej 60 -> niezdany
