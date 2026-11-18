@@ -64,6 +64,23 @@ dictionary.update({'data': '12-12-2045'})
 print(dictionary)
 # {'imie': ['Radek', 'Tomek', 'Anna'], 'wiek': 41, 'data': '12-12-2045'}
 
-dict_small = {'x': 20}
+dict_small = {'x': 20}  # tworzymy słownik
 dict_small.update([('y', 3), ("z", 6)])
 print(dict_small)  # {'x': 20, 'y': 3, 'z': 6}
+
+# input() - wprowadzanie danych, zwraca str
+# tekst = input("Podaj imię: ")
+# print(tekst)
+# Podaj imię: Radek
+# Radek
+
+
+# napisac aplikację kalkulator
+# +
+a = int(input("podaj liczbę a: "))
+b = float(input("podaj liczbę b: "))
+print(float(a) + float(b))
+print(f"{float(a):.2f} + {float(b):.2f} = {float(a) + float(b):.2f}")
+# 11.0
+# 5.00 + 6.00 = 11.0
+# 4.00 + 6.00 = 10.00
