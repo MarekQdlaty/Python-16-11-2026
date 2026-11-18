@@ -45,3 +45,9 @@ print(dictionary['Imie'.lower()])  # ['Radek', 'Tomek', 'Anna']
 
 print(dictionary.get("Imie"))  # None
 print(dictionary.get("Imie", "default"))  # default
+
+print(chr(223))  # ß
+# \uhh - kod szesnastkowy unicode
+print("\u00DF")  # ß
+# \N{name}
+print("\N{LATIN SMALL LETTER SHARP S}")  # ß
