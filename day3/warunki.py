@@ -96,7 +96,7 @@ print(f"{90:.2%}")
 # dodac podatek 20% dla przedziału 10000 do 39999
 # dodac podatek 40% dla przedziału 40000 do 100000
 
-zarobki = int(input("Podaj zarobki: "))
+# zarobki = int(input("Podaj zarobki: "))
 
 # # kolejnosć ma znaczenie
 # podatki = 0
@@ -110,3 +110,15 @@ zarobki = int(input("Podaj zarobki: "))
 #     podatek = 0.9
 #
 # print(f'podatek wynosi: {zarobki * podatek:.2f} pln.')
+
+suma_zam = 150
+if suma_zam > 100:
+    rabat = 25
+else:
+    rabat = 0
+
+print(f"Rabat wynosi: {rabat}")
+
+# operator warunkowy
+rabat = 25 if suma_zam > 100 else 0
+print(f"Rabat wynosi: {rabat}")
