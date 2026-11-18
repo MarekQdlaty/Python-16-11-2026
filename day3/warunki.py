@@ -126,3 +126,50 @@ print(f"Rabat wynosi: {rabat}")
 # napisac test z...
 # trzy patania
 # dodac punktację
+
+
+# spam += 1    spam = spam + 1
+# spam -= 1    spam = spam - 1
+# spam *= 1    spam = spam * 1
+# spam /= 1    spam = spam / 1
+# spam %= 1    spam = spam % 1
+odp = input("Co jest stolicą Polski?")
+punkty = 0
+if odp.strip().casefold() == "Warszawa".strip().casefold():
+    print("Odpowiedź prawidłowa")
+    # punkty = punkty + 1
+    punkty += 1
+else:
+    print("Sprawdź w ksiązce na stronie 23")
+
+print("Wynik:", punkty)
+
+odp = input("Co jest stolicą Austarlii?")
+if odp.strip().casefold() == "Canbera".strip().casefold():
+    print("Odpowiedź prawidłowa")
+    # punkty = punkty + 1
+    punkty += 1
+else:
+    print("Sprawdź w ksiązce na stronie 23")
+
+print("Wynik:", punkty)
+
+odp = input("Co jest stolicą Niemiec?")
+if odp.strip().casefold() == "Berlin".strip().casefold():
+    print("Odpowiedź prawidłowa")
+    # punkty = punkty + 1
+    punkty += 1
+else:
+    print("Sprawdź w ksiązce na stronie 23")
+
+print("Wynik:", punkty)
+
+# Co jest stolicą Polski?Warszawa
+# Odpowiedź prawidłowa
+# Wynik: 1
+# Co jest stolicą Austarlii?Canbera
+# Odpowiedź prawidłowa
+# Wynik: 2
+# Co jest stolicą Niemiec?Berlin
+# Odpowiedź prawidłowa
+# Wynik: 3
