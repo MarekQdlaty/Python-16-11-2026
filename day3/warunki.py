@@ -69,3 +69,7 @@ elif punkty >= 60:
     print("Egzamin zdany")
 else:
     print("Niezdany")
+
+a = "Radek"
+# jezeli długosc tekstu wieksza niz 3 to wypisac:
+# Długość wynosi: ... i jest większa niż 3.
