@@ -77,10 +77,18 @@ print(dict_small)  # {'x': 20, 'y': 3, 'z': 6}
 
 # napisac aplikację kalkulator
 # +
-a = int(input("podaj liczbę a: "))
-b = float(input("podaj liczbę b: "))
-print(float(a) + float(b))
-print(f"{float(a):.2f} + {float(b):.2f} = {float(a) + float(b):.2f}")
+# a = int(input("podaj liczbę a: "))
+# b = float(input("podaj liczbę b: "))
+# print(float(a) + float(b))
+# print(f"{float(a):.2f} + {float(b):.2f} = {float(a) + float(b):.2f}")
 # 11.0
 # 5.00 + 6.00 = 11.0
 # 4.00 + 6.00 = 10.00
+
+# napisac słownik pol-ang
+pol_ang = {'pies': "dog", "kot": 'cat', "sowa": "owl"}
+print("Słówka:", pol_ang.keys())
+odp = input("Podaj słówko do przetłumaczenia: ")
+print(pol_ang.get(odp.strip().casefold(), "nie ma"))
+# Podaj słówko do przetłumaczenia:  Kot
+# cat
