@@ -46,3 +46,5 @@ elif odp == "Tomek":
     print("Jestem Tomek")
 else:
     print("Ani Radek ani Tomek")
+
+# Jestem Tomek
