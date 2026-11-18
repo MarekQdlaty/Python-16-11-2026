@@ -91,3 +91,17 @@ if (n := len(a)) > 3:
 # jesli zarobki mniejsze niz 10_000 podatek 0%
 # dla pozostałych podatek 90%
 # wypisz obliczony podatek
+print(f"{90:.2%}")
+
+# dodac podatek 20% dla przedziału 10000 do 39999
+# dodac podatek 40% dla przedziału 40000 do 100000
+
+zarobki = int(input("Podaj zarobki: "))
+
+podatki = 0
+if zarobki < 10_000:
+    podatek = 0
+else:
+    podatek = 0.9
+
+print(f'podatek wynosi: {zarobki * podatek} pln.')
