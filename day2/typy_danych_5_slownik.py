@@ -4,12 +4,18 @@
 # słownik jest odpowiednikiem jsona w pythonie
 
 # pusty słownik
-ditionary = {}
-print(type(ditionary))  # <class 'dict'>
-print(ditionary)  # {}
+dictionary = {}
+print(type(dictionary))  # <class 'dict'>
+print(dictionary)  # {}
 
 dict_1 = dict()
 print(dict_1)  # {}
 print(type(dict_1))  # <class 'dict'>
 
 
+# dodawanie elementu do słownika
+dictionary['imie'] = "Radek"
+print(dictionary)
+# {'imie': 'Radek'}
+
+# klucz wiek
