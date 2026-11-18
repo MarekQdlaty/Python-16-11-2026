@@ -29,3 +29,7 @@ else:  # gdy nie ma błedu
 finally:  # wykona sie zawsze
     print("Kolejny wiersz")
 print("Dalsza część...")
+
+# 30.0
+# Kolejny wiersz
+# Dalsza część...
