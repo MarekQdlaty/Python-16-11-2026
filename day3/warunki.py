@@ -133,36 +133,36 @@ print(f"Rabat wynosi: {rabat}")
 # spam *= 1    spam = spam * 1
 # spam /= 1    spam = spam / 1
 # spam %= 1    spam = spam % 1
-odp = input("Co jest stolicą Polski?")
-punkty = 0
-if odp.strip().casefold() == "Warszawa".strip().casefold():
-    print("Odpowiedź prawidłowa")
-    # punkty = punkty + 1
-    punkty += 1
-else:
-    print("Sprawdź w ksiązce na stronie 23")
-
-print("Wynik:", punkty)
-
-odp = input("Co jest stolicą Austarlii?")
-if odp.strip().casefold() == "Canbera".strip().casefold():
-    print("Odpowiedź prawidłowa")
-    # punkty = punkty + 1
-    punkty += 1
-else:
-    print("Sprawdź w ksiązce na stronie 23")
-
-print("Wynik:", punkty)
-
-odp = input("Co jest stolicą Niemiec?")
-if odp.strip().casefold() == "Berlin".strip().casefold():
-    print("Odpowiedź prawidłowa")
-    # punkty = punkty + 1
-    punkty += 1
-else:
-    print("Sprawdź w ksiązce na stronie 23")
-
-print("Wynik:", punkty)
+# odp = input("Co jest stolicą Polski?")
+# punkty = 0
+# if odp.strip().casefold() == "Warszawa".strip().casefold():
+#     print("Odpowiedź prawidłowa")
+#     # punkty = punkty + 1
+#     punkty += 1
+# else:
+#     print("Sprawdź w ksiązce na stronie 23")
+#
+# print("Wynik:", punkty)
+#
+# odp = input("Co jest stolicą Austarlii?")
+# if odp.strip().casefold() == "Canbera".strip().casefold():
+#     print("Odpowiedź prawidłowa")
+#     # punkty = punkty + 1
+#     punkty += 1
+# else:
+#     print("Sprawdź w ksiązce na stronie 23")
+#
+# print("Wynik:", punkty)
+#
+# odp = input("Co jest stolicą Niemiec?")
+# if odp.strip().casefold() == "Berlin".strip().casefold():
+#     print("Odpowiedź prawidłowa")
+#     # punkty = punkty + 1
+#     punkty += 1
+# else:
+#     print("Sprawdź w ksiązce na stronie 23")
+#
+# print("Wynik:", punkty)
 
 # Co jest stolicą Polski?Warszawa
 # Odpowiedź prawidłowa
@@ -173,3 +173,17 @@ print("Wynik:", punkty)
 # Co jest stolicą Niemiec?Berlin
 # Odpowiedź prawidłowa
 # Wynik: 3
+
+
+# zasymulujemy system zbierania logów
+# typ_systemu: console, email -> inny
+# console: "Stało się coś strasznego"
+# email: "System email"
+
+typ_systemu = "console"
+if typ_systemu == "console":
+    print("Stało się coś strasznego")
+elif typ_systemu == "email":
+    print("System email")
+else:
+    print("Inny system")
