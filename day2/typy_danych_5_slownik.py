@@ -59,3 +59,11 @@ print(name1 == name2)
 print(name1.lower() == name2.lower())  # False
 # Return a version of the string suitable for caseless comparisons.
 print(name1.casefold() == name2.casefold())  # True
+
+dictionary.update({'data': '12-12-2045'})
+print(dictionary)
+# {'imie': ['Radek', 'Tomek', 'Anna'], 'wiek': 41, 'data': '12-12-2045'}
+
+dict_small = {'x': 20}
+dict_small.update([('y', 3), ("z", 6)])
+print(dict_small)  # {'x': 20, 'y': 3, 'z': 6}
