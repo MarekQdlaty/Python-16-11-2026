@@ -45,3 +45,5 @@ print(lista3)  # [0, 2, 4, 6, 8]
 # list comprehensions
 lista3 = [j for j in range(10) if j % 2 == 0]
 print(lista3)
+
+# przerobic zadanie lotto na petle
