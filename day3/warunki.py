@@ -60,3 +60,12 @@ else:
 # jesli wynik wynosi 90  i wiecej -> Bardzo dobry
 # jesli od 60 do 89 -> Egzamin zdany
 # jesli ponizej 60 -> niezdany
+
+punkty = int(input("Podaj liczbę punktów: "))
+
+if punkty >= 90:
+    print("Bardzo dobry")
+elif punkty >= 60:
+    print("Egzamin zdany")
+else:
+    print("Niezdany")
