@@ -42,3 +42,7 @@ else:
 odp = "Tomek"
 if odp == "Radek":
     print("Jestem Radek")
+elif odp == "Tomek":
+    print("Jestem Tomek")
+else:
+    print("Ani Radek ani Tomek")
