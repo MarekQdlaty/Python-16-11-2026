@@ -35,3 +35,15 @@ print(data)
 # <class 'dict'>
 # {'age': 40, 'czy_pali': None, 'name': 'Radek'}
 print(data['name'])  # Radek
+
+json_text = json.dumps(data)
+print(json_text)
+# {"age": 40, "czy_pali": null, "name": "Radek"}
+print(type(json_text))  # <class 'str'>
+
+dict_json = json.loads(json_text)
+print(dict_json)
+# {'age': 40, 'czy_pali': None, 'name': 'Radek'}
+print(type(dict_json))  # <class 'dict'>
+
+print(dict_json['name'])  # Radek
