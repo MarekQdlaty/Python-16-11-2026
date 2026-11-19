@@ -9,6 +9,13 @@ def dodaj():
 
 
 def dodaj2():
+    print(a + b)  # używa globalnych
+
+
+def dodaj3():
+    global a
+    a = 7  # zmienna globalna
+    b = 8  # lokalne
     print(a + b)
 
 
@@ -17,3 +24,6 @@ dodaj()  # 15
 print(f"Zmienna z góry (globalna) {a}")  # Zmienna z góry (globalna) 10
 dodaj2()  # 20
 print(f"Zmienna z góry (globalna) {a}")  # Zmienna z góry (globalna) 10
+dodaj3()  # 15
+print(f"Zmienna z góry (globalna) {a}")  # Zmienna z góry (globalna) 7
+dodaj2()  # 17
