@@ -27,4 +27,8 @@ print(type(formated_date))  # <class 'str'>
 # 11:18:45
 # 11:18 am
 
-
+# formated_time = datetime.now().strftime("%H:%M")
+# formated_time = datetime.now().strftime("%H:%M:%S") # 11:24:12
+formated_time = datetime.now().strftime("%I:%M:%S %p")  # 11:24:40 AM
+print(formated_time)  # 19/11/2026
+print(type(formated_time))
