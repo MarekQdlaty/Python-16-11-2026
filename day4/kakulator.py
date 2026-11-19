@@ -26,3 +26,5 @@ while True:
         print("Dzielenie przez zero")
     except Exception as e:
         print("Błąd:", e)
+    finally:
+        print("Obliczenia wykonane")
