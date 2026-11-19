@@ -67,3 +67,15 @@ for i in range(len(lista_wyl)):  # i jest indeksem
 
 for i in lista_wyl:  # pod i podstawi kolejne elementy
     print(i)
+
+lista_nazwy = ['Ala', 'Tomek', "Zenek", "Basia"]
+
+for p in lista_nazwy:
+    print(p)
+
+# Ala
+# Tomek
+# Zenek
+# Basia
+
+# 0 Ala
