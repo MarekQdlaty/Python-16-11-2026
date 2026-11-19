@@ -165,3 +165,17 @@ for i in enumerate(zip(lista_nazwy, wiek)):
 # (1, ('Tomek', 18))
 # (2, ('Zenek', 34))
 # (3, ('Basia', 20))
+
+a, b = (0, ('Ala', 24))
+print(a, b)  # 0 ('Ala', 24)
+c, d = ('Ala', 24)
+print(c, d)
+a, (b, c) = (0, ('Ala', 24))
+print(a, b, c)  # 0 Ala 24
+
+for i, (o, w) in enumerate(zip(lista_nazwy, wiek)):
+    print(i, o, w)
+# 0 Ala 24
+# 1 Tomek 18
+# 2 Zenek 34
+# 3 Basia 20
