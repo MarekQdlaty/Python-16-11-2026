@@ -18,3 +18,11 @@ print(type(person_dict))  # <class 'dict'>
 # zapis do pliku
 with open("nasze_dane.json", "w") as f:
     json.dump(person_dict, f)
+
+# beautify
+with open("nasze_dane_b.json", "w") as f:
+    json.dump(person_dict, f, indent=4)
+
+# posortowane
+with open("nasze_dane_b_sorted.json", "w") as f:
+    json.dump(person_dict, f, indent=4, sort_keys=True)
