@@ -45,3 +45,16 @@ for k, v in dictionary.items():
     print(k, v, sep="<=>", end=" | ")
     # imie<=>Radek | nazwisko<=>Kowalski |
 print()
+
+# ang_pol
+pol_ang = {'pies': "dog", "kot": 'cat', "sowa": "owl"}
+
+ang_pol = {}
+for k, v in pol_ang.items():
+    ang_pol[v] = k
+print(ang_pol)
+# {'dog': 'pies', 'cat': 'kot', 'owl': 'sowa'}
+
+# dictionary comprehensions
+print({v: k for k, v in pol_ang.items()})
+# {'dog': 'pies', 'cat': 'kot', 'owl': 'sowa'}
