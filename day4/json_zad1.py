@@ -26,3 +26,12 @@ with open("nasze_dane_b.json", "w") as f:
 # posortowane
 with open("nasze_dane_b_sorted.json", "w") as f:
     json.dump(person_dict, f, indent=4, sort_keys=True)
+
+with open("nasze_dane_b_sorted.json", "r") as file:
+    data = json.load(file)
+
+print(type(data))
+print(data)
+# <class 'dict'>
+# {'age': 40, 'czy_pali': None, 'name': 'Radek'}
+print(data['name'])  # Radek
