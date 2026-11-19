@@ -28,3 +28,15 @@ while True:
         print("Błąd:", e)
     finally:
         print("Obliczenia wykonane")
+
+# 1. Dodawanie
+# 5. Koniec
+# Podaj opcję z menu: 1
+# podaj liczbę a: 6
+# podaj liczbę b: 9
+# Dodawanie 6.0 + 9.0 = 15.0
+# Obliczenia wykonane
+#
+# 1. Dodawanie
+# 5. Koniec
+# Podaj opcję z menu:
