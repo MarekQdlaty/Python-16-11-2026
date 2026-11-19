@@ -98,3 +98,20 @@ for i in lista_nazwy:
 # enumerate() - numeruje elementy i zwraca numer i element
 for i in enumerate(lista_nazwy):
     print(i)
+# (3, 'Basia') -?> 3, Basia
+a, b = (3, 'Basia')
+print(a, b)  # 3 Basia
+
+for i, o in enumerate(lista_nazwy):
+    print(i, o, sep=",")
+# 0 Ala
+# 1 Tomek
+# 2 Zenek
+# 3 Basia
+
+for i, o in enumerate(lista_nazwy, start=1):
+    print(i, o, sep=",")
+# 1,Ala
+# 2,Tomek
+# 3,Zenek
+# 4,Basia
