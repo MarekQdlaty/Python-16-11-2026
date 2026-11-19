@@ -60,3 +60,10 @@ for _ in range(6):
     lista_wyl.append(kula)
 
 print(lista_wyl)  # [8, 11, 45, 7, 9, 25]
+
+# wypisac elementy z listy lista_wyl
+for i in range(len(lista_wyl)):  # i jest indeksem
+    print(lista_wyl[i])
+
+for i in lista_wyl:  # pod i podstawi kolejne elementy
+    print(i)
