@@ -15,3 +15,16 @@ print(today.day)  # 19
 print(today.weekday())  # 3
 # Return day of the week, where Monday == 1 ... Sunday == 7.
 print(today.isoweekday())  # 4
+
+# formatowanie dat
+print(today.strftime("%A"))  # Thursday
+
+formated_date = datetime.now().strftime("%d/%m/%Y")
+print(formated_date)  # 19/11/2026
+print(type(formated_date))  # <class 'str'>
+
+# 11:18
+# 11:18:45
+# 11:18 am
+
+
