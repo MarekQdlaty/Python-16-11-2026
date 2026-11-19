@@ -124,3 +124,17 @@ for i in range(-10, 0, 2):  # (start, stop, krok)
 
 for i in range(10, 0, -1):
     print(i)
+
+# lista_nazwy = ['Ala', 'Tomek', "Zenek", "Basia"]
+lista_nazwy = ['Ala', 'Tomek', "Zenek", "Basia", "Marta"]
+wiek = [24, 18, 34, 20]
+
+# Ala 24
+
+for i in range(len(lista_nazwy)):
+    print(f"imie: {lista_nazwy[i]}, wiek: {wiek[i]}")
+
+# imie: Ala, wiek: 24
+# imie: Tomek, wiek: 18
+# imie: Zenek, wiek: 34
+# imie: Basia, wiek: 20
