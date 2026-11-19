@@ -31,3 +31,17 @@ for k, v in dictionary.items():
 
 # imie <=> Radek
 # nazwisko <=> Kowalski
+# sep
+# string inserted between values, default a space.
+# end
+# string appended after the last value, default a newline.
+
+for k, v in dictionary.items():
+    print(k, v, sep="<=>")
+# imie<=>Radek
+# nazwisko<=>Kowalski
+
+for k, v in dictionary.items():
+    print(k, v, sep="<=>", end=" | ")
+    # imie<=>Radek | nazwisko<=>Kowalski |
+print()
