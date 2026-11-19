@@ -28,5 +28,17 @@ def odejmij(a, b, c=0):
     print(a - b - c)
 
 
+# po  pozycji
 odejmij(1, 2)
 odejmij(1, 2, 3)
+
+# po nazwie
+odejmij(c=9, b=90, a=89)  # -10
+
+# mieszany
+odejmij(1, 2, c=90)  # -91
+
+# odejmij(b=1, 1, 2)  # SyntaxError: positional argument follows keyword argument
+
+# print(dodaj() + dodaj())
+# TypeError: unsupported operand type(s) for +: 'NoneType' and 'NoneType'
