@@ -115,3 +115,12 @@ for i, o in enumerate(lista_nazwy, start=1):
 # 2,Tomek
 # 3,Zenek
 # 4,Basia
+
+for i in range(-10, 0):
+    print(i)
+
+for i in range(-10, 0, 2):  # (start, stop, krok)
+    print(i)
+
+for i in range(10, 0, -1):
+    print(i)
