@@ -79,3 +79,22 @@ for p in lista_nazwy:
 # Basia
 
 # 0 Ala
+for i in range(len(lista_nazwy)):
+    print(f"{i}, {lista_nazwy[i]}")
+
+# 0, Ala
+# 1, Tomek
+# 2, Zenek
+# 3, Basia
+
+for i in lista_nazwy:
+    print(f"{lista_nazwy.index(i)}, {i}")
+
+# 0, Ala
+# 1, Tomek
+# 2, Zenek
+# 3, Basia
+
+# enumerate() - numeruje elementy i zwraca numer i element
+for i in enumerate(lista_nazwy):
+    print(i)
