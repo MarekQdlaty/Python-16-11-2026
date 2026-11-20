@@ -2,7 +2,7 @@ from pywinauto import Desktop
 
 desktop = Desktop(backend="uia")
 
-okno = desktop.window(title="Bez tytułu — Notatnik")
+okno = desktop.window(title="test.log — Notatnik")
 
 przycisk = okno.child_window(
     title="Dodaj nową kartę",
