@@ -21,6 +21,15 @@ try:
     c.execute(query)
     conn.commit()
 
+    insert = "INSERT INTO developers (id,name,salary) VALUES (1,'Radek',5000);"
+    c.execute(insert)
+    conn.commit()
+
+    select = "SELECT * FROM developers;"
+    for row in c.execute(select):
+        print(row)
+        # (1, 'Radek', 5000.0)
+
 except Exception as e:
     print("Bład:", e)
 finally:
