@@ -19,3 +19,4 @@ print(df)
 # 2  Python  15000       NaN       800
 # 3     PHP  18000   15 Days       500
 
+df.to_excel('courses.xlsx')
