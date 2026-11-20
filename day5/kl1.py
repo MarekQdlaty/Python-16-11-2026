@@ -17,3 +17,7 @@ print(Human.__doc__)
 #  cd day5
 #  pydoc -b kl1.py - serwer dokumentacji
 #  pydoc -w kl1 - plik html z dokumentacyją
+
+cz1 = Human()
+print(cz1)
+# <__main__.Human object at 0x0000020C7A0B4C20>
