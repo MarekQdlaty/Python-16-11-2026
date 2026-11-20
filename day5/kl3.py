@@ -1,4 +1,4 @@
-from abc import ABC
+from abc import ABC, abstractmethod
 
 
 class Ptak(ABC):
@@ -16,6 +16,7 @@ class Ptak(ABC):
     def latam(self):
         print("Tu", self.gatunek, "Lecę z szybkością", self.szybkosc)
 
+    @abstractmethod  # metoda abstarkcyjna
     def wydaj_odglos(self):
         pass
 
@@ -31,13 +32,18 @@ class Kura(Ptak):
     def latam(self):
         print("Tu", self.gatunek, "Ja nie latam.")
 
+    def wydaj_odglos(self):  # musi byc
+        print("ko ko ko ko")
 
-or1 = Ptak("Orzel", 50)
-or1.latam()
-# Tu Orzel Lecę z szybkością 50
 
-kur1 = Ptak("Kura", 0)
-kur1.latam()
+# TypeError: Can't instantiate abstract class Ptak without an implementation for abstract method 'wydaj_odglos'
+# or1 = Ptak("Orzel", 50)
+# or1.latam()
+# # Tu Orzel Lecę z szybkością 50
+#
+# kur1 = Ptak("Kura", 0)
+# kur1.latam()
 
 kur2 = Kura("Kura zielononóżka")
 kur2.latam()  # Tu Kura zielononóżka Ja nie latam.
+kur2.wydaj_odglos() # ko ko ko ko
