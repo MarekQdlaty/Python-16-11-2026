@@ -7,7 +7,7 @@ def wybierz_plik():
 
     if plik:
         print("Wybrano plik:", plik)
-        # Wybrano plik: //10.247.54.135/Users/CSComarch/Downloads/DYSK Sieciowy/streamlit_23-09-2026/daty-01.xlsx
+        # Wybrano plik: C:/Users/cscomarch/Documents/dane.txt
 
 
 root = tk.Tk()
