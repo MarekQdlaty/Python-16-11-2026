@@ -36,6 +36,13 @@ class Kura(Ptak):
         print("ko ko ko ko")
 
 
+class Orzel(Ptak):
+    """Klasa Orzeł"""
+
+    def wydaj_odglos(self):
+        print("Kir kier ki kier")
+
+
 # TypeError: Can't instantiate abstract class Ptak without an implementation for abstract method 'wydaj_odglos'
 # or1 = Ptak("Orzel", 50)
 # or1.latam()
@@ -46,4 +53,18 @@ class Kura(Ptak):
 
 kur2 = Kura("Kura zielononóżka")
 kur2.latam()  # Tu Kura zielononóżka Ja nie latam.
-kur2.wydaj_odglos() # ko ko ko ko
+kur2.wydaj_odglos()  # ko ko ko ko
+
+or2 = Orzel("Orzeł Bielik", 55)
+or2.latam()
+or2.wydaj_odglos()
+
+# Tu Orzeł Bielik Lecę z szybkością 55
+# Kir kier ki kier
+
+lista = [or2, kur2]
+# polimorfizm
+for i in lista:
+    i.wydaj_odglos()
+# Kir kier ki kier
+# ko ko ko ko
