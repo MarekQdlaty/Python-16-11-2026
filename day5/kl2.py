@@ -17,5 +17,16 @@ class Human:
     def powitanie(self):
         print("Mam na imię:", self.imie)
 
+    # __str__
+    def __str__(self):
+        return f"{self.imie=}, {self.wiek=}, {self.plec=}, {self.wzrost=}"
+
 
 cz1 = Human("Radek", 45, 190, "m")
+cz1.powitanie()  # Mam na imię: Radek
+print(cz1)
+# self.imie='Radek', self.wiek=45, self.plec='m', self.wzrost=190
+
+cz2 = Human("Anna", 23, 170)
+print(cz2)
+# self.imie='Anna', self.wiek=23, self.plec='k', self.wzrost=170
