@@ -29,6 +29,10 @@ class Human:
         else:
             print("Ruszył(e)m")
 
+    def __str__(self):
+        return f"{self.imie=}, {self.wiek=}, {self.plec=}"
+        # self.imie='', self.wiek=None, self.plec='k'
+
 
 print(Human.__doc__)
 # Klasa Human opisująca człowieka w Pythonie
@@ -73,3 +77,8 @@ cz1.ruszaj()
 cz2.ruszaj()
 # Ruszył(a)m
 # Ruszył(e)m
+
+print(cz1)
+print(cz2)
+# self.imie='Ania', self.wiek=35, self.plec='k'
+# self.imie='Radek', self.wiek=67, self.plec='m'
