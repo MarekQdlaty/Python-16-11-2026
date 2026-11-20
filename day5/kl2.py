@@ -18,6 +18,11 @@ class Human:
         print("Mam na imię:", self.imie)
 
     # wypisz_wiek(), wypisz_wzrost()
+    def wypisz_wiek(self):
+        print(f"Mam {self.wiek} lat.")
+
+    def wypisz_wzrost(self):
+        print(f"Mam {self.wzrost} cm wzrostu.")
 
     # __str__
     def __str__(self):
@@ -32,3 +37,13 @@ print(cz1)
 cz2 = Human("Anna", 23, 170)
 print(cz2)
 # self.imie='Anna', self.wiek=23, self.plec='k', self.wzrost=170
+
+cz1.wypisz_wiek()
+cz1.wypisz_wzrost()
+# Mam 45 lat.
+# Mam 190 cm wzrostu.
+
+cz2.wypisz_wiek()
+cz2.wypisz_wzrost()
+# Mam 23 lat.
+# Mam 170 cm wzrostu.
