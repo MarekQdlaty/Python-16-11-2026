@@ -1,4 +1,7 @@
-class Ptak:
+from abc import ABC
+
+
+class Ptak(ABC):
     """Klasa opisująca ptaka w Pythonie"""
 
     def __init__(self, gatunek, szybkosc):
@@ -12,3 +15,29 @@ class Ptak:
 
     def latam(self):
         print("Tu", self.gatunek, "Lecę z szybkością", self.szybkosc)
+
+    def wydaj_odglos(self):
+        pass
+
+
+class Kura(Ptak):
+    """Klasa Kura, dziedziczy po klasie Ptak"""
+
+    def __init__(self, gatunek):
+        # musimy wywołąc nadrzędny konstruktor
+        # super() - klasa nadrzędna
+        super().__init__(gatunek, 0)
+
+    def latam(self):
+        print("Tu", self.gatunek, "Ja nie latam.")
+
+
+or1 = Ptak("Orzel", 50)
+or1.latam()
+# Tu Orzel Lecę z szybkością 50
+
+kur1 = Ptak("Kura", 0)
+kur1.latam()
+
+kur2 = Kura("Kura zielononóżka")
+kur2.latam()  # Tu Kura zielononóżka Ja nie latam.
