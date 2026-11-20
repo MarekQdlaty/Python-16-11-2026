@@ -40,4 +40,16 @@ print(data)
 # 'code': 'USD',
 # 'rates': [{'no': '226/A/NBP/2026', 'effectiveDate': '2026-11-20', 'mid': 4.0613}]}
 
+print(data.keys())  # dict_keys(['table', 'currency', 'code', 'rates'])
 # nazwa i kurs
+print("Waluta:", data['currency'])  # Waluta: dolar amerykański
+print(data.get('currency'))
+
+print(data['rates'])
+# [
+# {'no': '226/A/NBP/2026', 'effectiveDate': '2026-11-20', 'mid': 4.0613}
+# ]
+print(data['rates'][0])  # {'no': '226/A/NBP/2026', 'effectiveDate': '2026-11-20', 'mid': 4.0613}
+print(data['rates'][0]['mid'])  # 4.0613
+
+# https://api.chucknorris.io/
