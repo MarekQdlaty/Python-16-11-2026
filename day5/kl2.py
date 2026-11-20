@@ -17,6 +17,8 @@ class Human:
     def powitanie(self):
         print("Mam na imię:", self.imie)
 
+    # wypisz_wiek(), wypisz_wzrost()
+
     # __str__
     def __str__(self):
         return f"{self.imie=}, {self.wiek=}, {self.plec=}, {self.wzrost=}"
