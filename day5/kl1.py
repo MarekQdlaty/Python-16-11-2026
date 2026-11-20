@@ -18,6 +18,12 @@ class Human:
     def powitanie(self):
         print("Mam na imię:", self.imie)
 
+    # napisac metode
+    # ruszaj()
+    # w zaleznosci od płci
+    # ruszyłem, ruszyłam
+    # self - obiekt
+
 
 print(Human.__doc__)
 # Klasa Human opisująca człowieka w Pythonie
