@@ -23,6 +23,11 @@ class Human:
     # w zaleznosci od płci
     # ruszyłem, ruszyłam
     # self - obiekt
+    def ruszaj(self):
+        if self.plec == "k":
+            print("Ruszył(a)m")
+        else:
+            print("Ruszył(e)m")
 
 
 print(Human.__doc__)
@@ -64,3 +69,7 @@ cz1.powitanie()
 cz2.powitanie()
 # Mam na imię: Ania
 # Mam na imię: Radek
+cz1.ruszaj()
+cz2.ruszaj()
+# Ruszył(a)m
+# Ruszył(e)m
