@@ -22,8 +22,8 @@ try:
     conn.commit()
 
     insert = "INSERT INTO developers (id,name,salary) VALUES (1,'Radek',5000);"
-    c.execute(insert)
-    conn.commit()
+    # c.execute(insert)
+    # conn.commit()
 
     select = "SELECT * FROM developers;"
     for row in c.execute(select):
@@ -39,3 +39,5 @@ finally:
 
 # Baza danych została podłączona
 # Połaczenie zostało zamknięte
+
+# ORM
